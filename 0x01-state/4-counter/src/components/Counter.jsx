@@ -13,7 +13,7 @@ export default class Counter extends React.Component {
             <div>
                 {this.state.value}
                 <button onClick={(e) => this.handleClick(e)}>
-                    "New Value"
+                    New Value
                 </button>
             </div>
         );
